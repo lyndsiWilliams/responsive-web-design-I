@@ -199,6 +199,13 @@ nav {
     /* word-spacing: 50px; */
 }
 
+.navBar {
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    padding-top: 5%;
+}
+
 nav a:first-child {
     padding-left: 0;
 }
@@ -353,12 +360,6 @@ address {
         flex-direction: column-reverse;
         justify-content: center;
         align-items: center;
-    }
-    .navBar {
-        width: 100%;
-        display: flex;
-        justify-content: space-between;
-        padding-top: 5%;
     }
     a {
         justify-content: space-between;
